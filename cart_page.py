@@ -13,4 +13,4 @@ class CartPage:
     def click_checkout(self):
         self.wait.until(
             EC.element_to_be_clickable(self.CHECKOUT_BUTTON)
-        ).click()
+        ).click() 

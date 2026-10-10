@@ -19,4 +19,4 @@ def test_calc(browser):
         page.click_button(button)
 
     result = page.get_result("15")
-    assert result is True 
+    assert result is True

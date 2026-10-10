@@ -46,4 +46,4 @@ def test_shop_flow(driver):
     # 9. Проверить сумму
     expected_total = "Total: $58.29"
     assert total_text == expected_total, f"Ошибка! Итоговая сумма не совпадает. Ожидалось: {expected_total}, Получено: {total_text}"
-    print("Проверка пройдена: итоговая сумма = $58.29") 
+    print("Проверка пройдена: итоговая сумма = $58.29")

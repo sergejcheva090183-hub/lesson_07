@@ -25,4 +25,4 @@ class MainPage:
         self.driver.find_element(*self.ONESIE_BUTTON).click()
 
     def open_cart(self):
-        self.driver.find_element(*self.CART_LINK).click()
+        self.driver.find_element(*self.CART_LINK).click() 
