@@ -25,4 +25,4 @@ class CheckoutPage:
     def get_total_price(self):
         return self.wait.until(
             EC.visibility_of_element_located(self.TOTAL_LABEL)
-        ).text
+        ).text 
